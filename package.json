@@ -1,0 +1,28 @@
+{
+  "name": "npm-lab-dumbo-web-060418",
+  "version": "1.0.0",
+  "description": "lab testing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "dependencies": {
+    "learn-browser": "^0.1.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rscheiwe/npm-lab-dumbo-web-060418.git"
+  },
+  "keywords": [
+    "nil"
+  ],
+  "author": "richard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rscheiwe/npm-lab-dumbo-web-060418/issues"
+  },
+  "homepage": "https://github.com/rscheiwe/npm-lab-dumbo-web-060418#readme"
+}
